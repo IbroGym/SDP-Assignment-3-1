@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class PaymentB {
+class PaymentB extends PaymentHandler {
+    public PaymentB() {
+        this.balance = 300;
+    }
 }
